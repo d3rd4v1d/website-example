@@ -1,0 +1,27 @@
+{
+    "name": "d3rd4v1d/example-website",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/d3rd4v1d/website-example"
+        }
+    ],
+    "require": {
+        "d3rd4v1d/example-website": "dev-master"
+    },
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {"Example\\": "src/"}
+    },
+    "require": {
+        "symfony/class-loader": "2.5.4",
+        "symfony/config": "2.5.4",
+        "symfony/console": "2.5.4",
+        "symfony/intl": "2.5.4",
+        "symfony/routing": "2.5.4",
+        "symfony/security": "2.5.4",
+        "symfony/translation": "2.5.4",
+        "symfony/templating": "2.5.4",
+        "symfony/yaml": "2.5.4"
+    }
+}
